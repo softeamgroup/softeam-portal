@@ -1,0 +1,25 @@
+nav {
+    background-color: #e3f2fd;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    border-bottom: 2px solid #1c94e0;
+    color: #1c94e0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    margin-right: 20px;
+}
+
+.search-employee-input-wrapper {
+    display:inline-block;
+    position: relative
+}
+.search-employee-input-wrapper:after {
+    font-family: 'FontAwesome';
+    content: '\f002';
+    position: absolute;
+    right: 15px;
+    top: 3px;
+    font-size: 20px;
+}
