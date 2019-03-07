@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AuthService } from './modules/user/services/auth.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'softeam-portal';
+  
+  constructor(private authService : AuthService) { }
+
+  get isLoggedIn(): boolean {
+    return this.authService.isLoggedIn;
+  }
 }
