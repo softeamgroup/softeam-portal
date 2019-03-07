@@ -1,0 +1,46 @@
+nav {
+    background-color: #444;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    margin-right: 20px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    border-bottom: 2px solid #1c94e0;
+    color: #1c94e0;
+}
+
+.navbar-nav .softeam-logo div {    
+    width:220px;
+}
+
+.navbar-nav .softeam-logo img {
+    width: 200px;
+    top:0;
+    bottom:0;
+    margin:auto;
+    position:absolute;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav .softeam-logo img {
+        position: initial;
+        margin: 10px 0;
+    }
+}
+
+
+.search-employee-input-wrapper {
+    display:inline-block;
+    position: relative
+}
+.search-employee-input-wrapper:after {
+    font-family: 'FontAwesome';
+    content: '\f002';
+    position: absolute;
+    right: 15px;
+    top: 3px;
+    font-size: 20px;
+}

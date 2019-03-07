@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AppMenuComponent } from './component/navs/app-menu.component';
+import { AppMenuComponent } from './shared/navs/app-menu.component';
 
 @NgModule({
   declarations: [
